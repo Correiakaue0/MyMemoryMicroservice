@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Harmonit.Microservice.MyMemory.ApiClient\Harmonit.Microservice.MyMemory.ApiClient.csproj" />
+    <ProjectReference Include="..\Harmonit.Microservice.MyMemory.Arguments\Harmonit.Microservice.MyMemory.Arguments.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Harmonit.Microservice.Base.Library">
+			<HintPath>..\dlls\Harmonit.Microservice.Base.Library.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Management.Arguments">
+			<HintPath>..\dlls\Harmonit.Microservice.Management.Arguments.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Webhook.Arguments">
+			<HintPath>..\dlls\Harmonit.Microservice.Webhook.Arguments.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Notification.Library">
+			<HintPath>..\dlls\Harmonit.Notification.Library.dll</HintPath>
+		</Reference>
+		<Reference Include="HarmonitVelox">
+		  <HintPath>..\dlls\HarmonitVelox.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Harmonit.Velox" Version="1.0.1" />
+		<PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="14.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="8.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI" Version="7.0.2" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="7.1.0" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="7.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.7.1" />
+		<PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+		<PackageReference Include="MongoDB.Bson" Version="2.27.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Harmonit.Microservice.MyMemory.ApiClient\Harmonit.Microservice.MyMemory.ApiClient.csproj" />
+		<ProjectReference Include="..\Harmonit.Microservice.MyMemory.Application\Harmonit.Microservice.MyMemory.Application.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Harmonit.CSharpTool">
+			<HintPath>..\dlls\Harmonit.CSharpTool.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Base.Library">
+			<HintPath>..\dlls\Harmonit.Microservice.Base.Library.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Webhook.Arguments">
+			<HintPath>..\dlls\Harmonit.Microservice.Webhook.Arguments.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Notification.Library">
+			<HintPath>..\dlls\Harmonit.Notification.Library.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Management.Arguments">
+			<HintPath>..\dlls\Harmonit.Microservice.Management.Arguments.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.StructureApi">
+			<HintPath>..\dlls\Harmonit.StructureApi.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.StructureApi.Shared">
+			<HintPath>..\dlls\Harmonit.StructureApi.Shared.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Translate">
+			<HintPath>..\dlls\Harmonit.Translate.dll</HintPath>
+		</Reference>
+		<Reference Include="HarmonitVelox">
+		  <HintPath>..\dlls\HarmonitVelox.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+/.vs
+/Harmonit.Microservice.MyMemory.Api/obj/
+/Harmonit.Microservice.MyMemory.Api/bin/
+/Harmonit.Microservice.MyMemory.Arguments/bin/
+/Harmonit.Microservice.MyMemory.Arguments/obj/
+/Harmonit.Microservice.MyMemory.CrossCutting/bin/
+/Harmonit.Microservice.MyMemory.CrossCutting/obj/
+/Harmonit.Microservice.MyMemory.ApiClient/bin/
+/Harmonit.Microservice.MyMemory.ApiClient/obj/
+/Harmonit.Microservice.MyMemory.CodeGenerator/bin/
+/Harmonit.Microservice.MyMemory.CodeGenerator/obj/
+/Harmonit.Microservice.MyMemory.Application/bin/
+/Harmonit.Microservice.MyMemory.Application/obj/
+/.vscode

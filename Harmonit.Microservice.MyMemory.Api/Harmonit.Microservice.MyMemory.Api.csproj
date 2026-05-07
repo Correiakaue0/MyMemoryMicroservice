@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Harmonit.Microservice.MyMemory.CrossCutting\Harmonit.Microservice.MyMemory.CrossCutting.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Reference Include="Harmonit.CSharpTool">
+			<HintPath>..\dlls\Harmonit.CSharpTool.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Base.Library">
+			<HintPath>..\dlls\Harmonit.Microservice.Base.Library.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Webhook.Arguments">
+			<HintPath>..\dlls\Harmonit.Microservice.Webhook.Arguments.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Notification.Library">
+			<HintPath>..\dlls\Harmonit.Notification.Library.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Microservice.Management.Arguments">
+			<HintPath>..\dlls\Harmonit.Microservice.Management.Arguments.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.StructureApi">
+			<HintPath>..\dlls\Harmonit.StructureApi.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.StructureApi.Shared">
+			<HintPath>..\dlls\Harmonit.StructureApi.Shared.dll</HintPath>
+		</Reference>
+		<Reference Include="Harmonit.Translate">
+			<HintPath>..\dlls\Harmonit.Translate.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

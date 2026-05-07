@@ -1,0 +1,40 @@
+[
+  {
+    "BaseName": "Translate",
+    "BaseNamespace": "Harmonit.Microservice.MyMemory",
+    "GenerateRoot": true,
+    "Method": [
+      {
+        "MethodName": "Translate",
+        "MethodDescription": "Tradução de palavras",
+        "RefitRoute": "get?q={text}&langpair={langpair}",
+        "HttpMethod": 2,
+        "ListParameter": [
+          {
+            "ParamType": "string",
+            "ParamName": "text",
+            "QueryParamName": "text",
+            "HeaderParamName": "q",
+            "isQuery": false,
+            "isHeader": true,
+            "isObject": false
+          },
+          {
+            "ParamType": "string",
+            "ParamName": "langpair",
+            "QueryParamName": "langpair",
+            "HeaderParamName": "langpair",
+            "isQuery": false,
+            "isHeader": true,
+            "isObject": false
+          }
+        ],
+        "ListErrorStatusCode": [],
+        "ListSuccessStatusCode": [],
+        "ReturnResponseIsList": false,
+        "HasOutputClass": true
+      }
+    ],
+    "GenerateTranslations": true
+  }
+]

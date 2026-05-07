@@ -1,0 +1,27 @@
+﻿:root {
+    --logoImageUrl: url('../../../images/harmonit-logo.png');
+}
+
+#outer-container > aside > nav > a:nth-child(2) {
+    display: none;
+}
+
+#outer-container > aside {
+    background: #6e52e2 !important;
+}
+
+    #outer-container > aside > nav > a.hc-aside-menu__item.hc-aside-menu__item--active {
+        background: #4f30d27a;
+    }
+
+#outer-container > section, .hc-table-container {
+    background: #333;
+}
+
+th, #outer-container > section > article > div > div > table > thead > tr > th > button > i {
+    color: white;
+}
+
+#outer-container > section > article > div > div > table > tbody > tr.hc-checks-table-container > td > table > thead > tr > th {
+    color: #333;
+}
